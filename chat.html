@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/Kloud - Beer talk</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:45</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"> <i class="fas fa-chevron-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Kloud</h1>
+      </div>
+      <div class="alt-header__column">
+        <span>
+          <i class="fas fa-search fa-lg fa-lg"></i>
+          <i class="fas fa-bars fa-lg"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-chat">
+      <div class="chat-timestamp">Friday, March 12, 2021</div>
+
+      <div class="message-row" id="ani1">
+        <img src="kloud__profile.jpeg" />
+        <div class="message-row__content">
+          <span class="message__author">Kloud</span>
+          <div class="message__info">
+            <span class="message__ballon"> 얌 </span>
+            <span class="message__time">14:17</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own" id="ani2">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__ballon"> 웅? </span>
+            <span class="message__time">14:18</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row" id="ani3">
+        <img src="kloud__profile.jpeg" />
+        <div class="message-row__content">
+          <span class="message__author">Kloud</span>
+          <div class="message__info">
+            <span class="message__ballon"> 나한텐 바쁘다더니... </span>
+            <span class="message__time">14:19</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row" id="ani4">
+        <img src="kloud__profile.jpeg" />
+        <div class="message-row__content">
+          <span class="message__author">Kloud</span>
+          <div class="message__info">
+            <span class="message__ballon"> 너 어제 테라 만났다며 ㅠ </span>
+            <span class="message__time">14:20</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="reply">
+        <div class="reply__column">
+          <i class="far fa-plus-square fa-2x"></i>
+        </div>
+        <div class="reply__column">
+          <input type="text" placeholder="Write a message..." />
+          <i class="far fa-laugh"></i>
+          <button>
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </form>
+    </main>
+    <div class="no-mobile">
+      <span>
+        <i class="far fa-sad-tear"></i> Your screen is too big
+        <i class="far fa-sad-tear"></i>
+      </span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/d85ec773d1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
