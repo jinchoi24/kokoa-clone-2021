@@ -1,0 +1,138 @@
+.recommended-friends {
+  padding: 25px 0px;
+  margin: 25px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+
+.recommended-friends_title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.recommended-friends span {
+  display: block;
+  margin: 100px 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
+.open-chat {
+  margin-bottom: 15px;
+}
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+.open-chat_header span {
+  opacity: 0.6;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+.open-post__members {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+.open-post__members i {
+  color: var(--yellow);
+  margin-right: 3px;
+}
+
+.open-post__members img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-post__members-number {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.open-post__members .divider {
+  width: 1.5px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 5px;
+}
+.open-post__members-status {
+  color: #ffb0e0;
+}
+
+.open-post__img {
+  position: relative;
+}
+.open-post__img img {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+}
+@keyframes HeartBeat {
+  0% {
+    color: pink;
+    transform: none;
+  }
+  50% {
+    color: hotpink;
+    transform: scale(1.5);
+  }
+  100% {
+    color: pink;
+    transform: none;
+  }
+}
+
+.open-post__heart-count {
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.open-post__heart-count span {
+  margin-left: 4px;
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: HeartBeat 1s linear infinite;
+}
+
+.wow-point {
+  display: block;
+  height: 10px;
+  width: 10px;
+  text-align: center;
+  border-radius: 50%;
+  color: tomato;
+  border: 1px solid tomato;
+  font-size: 10px;
+  font-weight: 800;
+  margin-left: 4px;
+  margin-top: 1px;
+}
