@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Ubuntu&display=swap');
 
 @import "screens/reset.css";
 @import "screens/variables.css";
@@ -22,7 +22,7 @@
 @import "chat.css";
 
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Rubik', sans-serif;
   height: 100vh;
   background: white url("beer_bottles__background.jpg") no-repeat center center;
 }
